@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gadget-Cart</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                <div class="row g-3">
+                    <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
+                        <div class="card">
+                            <img src="data:image/jpeg;base64,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"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Iphone 16</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card’s content.</p>
+                                <a href="#" class="btn btn-primary">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
+                            <div class="card">
+                            <img src="https://m.media-amazon.com/images/I/71St1R5DFGL.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Sennheiser Accentum</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card’s content.</p>
+                                <a href="#" class="btn btn-primary">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
+                            <div class="card">
+                            <img src="https://assets.myntassets.com/w_412,q_60,dpr_2,fl_progressive/assets/images/25208120/2023/9/26/0a21665f-e7f2-401a-ae47-4903cf1c5ebe1695720756900-CMF-by-Nothing-Watch-Pro-8711695720756698-1.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Nothing Watch pro</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card’s content.</p>
+                                <a href="#" class="btn btn-primary">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
+                            <div class="card">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnauDutDp4pKgwc7DZY0UUHpgbtHjW0aLf3Q&s"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Fastrack Fpods FZ100</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card’s content.</p>
+                                <a href="#" class="btn btn-primary">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
+                            <div class="card">
+                            <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/PB400_628ae039-11be-4f0b-b723-651e2bb05de7.jpg?v=1700300890"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Boat EnergyShroom 20000 mAh </h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card’s content.</p>
+                                <a href="#" class="btn btn-primary">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
+                            <div class="card">
+                            <img src="https://image01-in.oneplus.net/media/202406/19/9c9806ee60643ab92c71db1da6d55c2c.png?x-amz-process=image/format,webp/quality,Q_80"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">OnePlus Bullets Wireless Z2 ANC</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card’s content.</p>
+                                <a href="#" class="btn btn-primary">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
+                            <div class="card">
+                            <img src="https://in.jbl.com/dw/image/v2/BFND_PRD/on/demandware.static/-/Sites-masterCatalog_Harman/default/dwc92ba80f/JBL_PARTYBOX_ENCORE_ESSENTIAL_HERO_1605x1605px.png?sw=535&sh=535"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Jbl PartyBox</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card’s content.</p>
+                                <a href="#" class="btn btn-primary">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
+                            <div class="card">
+                            <img src="https://assets.bose.com/content/dam/cloudassets/Bose_DAM/Web/consumer_electronics/global/products/speakers/solo2_soundbar/product_silo_images/SoloSoundbar2_Carousel3_rightside_1200x1024.png/jcr:content/renditions/cq5dam.web.1920.1920.png"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Bose Solo Soundbar 2</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card’s content.</p>
+                                <a href="#" class="btn btn-primary">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
+                            <div class="card">
+                            <img src="https://www.jagranimages.com/images/newimg/09072024/09_07_2024-best_fire_tv_stick_in_india_23755403.webp"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Amazon Fire Tv Stick</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card’s content.</p>
+                                <a href="#" class="btn btn-primary">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+</body>
+
+</html>
